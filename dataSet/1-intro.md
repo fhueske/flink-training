@@ -1,7 +1,7 @@
 ---
-title: 3. DataSet API Basics
+title: DataSet API Basics
 layout: page
-permalink: /dataSetBasics/intro.html
+permalink: /dataSet/1-intro.html
 ---
 
 This lesson gives an introduction into Flink's DataSet API and includes a programming exercise for a first Flink program. In this lesson you will
@@ -12,4 +12,4 @@ This lesson gives an introduction into Flink's DataSet API and includes a progra
 - compile and package your program using Maven
 - execute your program on a (locally) running Flink instance
 
-[-> Continue to lecture]({{site.baseurl}}/dataSetBasics/slides.html)
+[-> Continue to lecture]({{site.baseurl}}/dataSet/1-slides.html)

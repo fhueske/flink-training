@@ -1,7 +1,7 @@
 ---
-title: 3. DataSet API Basics - Hands-On
+title: DataSet API Basics - Hands-On
 layout: page
-permalink: /dataSetBasics/handsOn.html
+permalink: /dataSet/1-handsOn.html
 ---
 
 In this hands-on session you will implement your first Flink program using the DataSet API. You will also learn how to package a Flink program using Apache Maven, execute the packaged program on a running Flink instance, and monitor its progress.

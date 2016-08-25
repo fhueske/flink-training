@@ -1,19 +1,19 @@
 ---
-title: 2. Setup Development Environment - Hands-on
+title: Setup Development Environment
 layout: page
-permalink: /devSetup/handsOn.html
+permalink: /devEnvSetup.html
 ---
 
-In this hands-on session you will setup an environment to locally develop, debug, and execute Flink programs. Furthermore, you will install a Flink instance to locally execute Flink programs on your machine.
+The following instructions guide you through the process of setting up an environment to locally develop, debug, and execute Flink programs. Furthermore, you will install a Flink instance to locally execute Flink programs on your machine.
 
 ### 1. Software requirements
 
 Flink supports Linux, OS X, and Windows as development environments for Flink programs and local execution. The following software is required for a Flink development setup and should be installed on your system.
 
-- Java JDK 7 (or 8)
+- Java JDK 7 (or higher)
 - Apache Maven 3.x
 - Git
-- an IDE for Java (and/or Scala) development (follow these [instructions](http://ci.apache.org/projects/flink/flink-docs-release-1.0/internals/ide_setup.html) to set up IntelliJ IDEA or Eclipse)
+- an IDE for Java (and/or Scala) development (follow these [instructions](http://ci.apache.org/projects/flink/flink-docs-release-1.1/internals/ide_setup.html) to set up IntelliJ IDEA or Eclipse)
 
 ### 2. Generate a Flink Maven project
 
@@ -31,7 +31,7 @@ Run one of following commands to generated a Flink Java or Scala project.
 mvn archetype:generate                             \
     -DarchetypeGroupId=org.apache.flink            \
     -DarchetypeArtifactId=flink-quickstart-java    \
-    -DarchetypeVersion=1.0.3                       \
+    -DarchetypeVersion=1.1.1                       \
     -DgroupId=org.apache.flink.quickstart          \
     -DartifactId=flink-java-project                \
     -Dversion=0.1                                  \
@@ -45,7 +45,7 @@ mvn archetype:generate                             \
 mvn archetype:generate                             \
     -DarchetypeGroupId=org.apache.flink            \
     -DarchetypeArtifactId=flink-quickstart-scala   \
-    -DarchetypeVersion=1.0.3                       \
+    -DarchetypeVersion=1.1.1                       \
     -DgroupId=org.apache.flink.quickstart          \
     -DartifactId=flink-scala-project               \
     -Dversion=0.1                                  \
@@ -114,7 +114,7 @@ Assuming you have an IDE with a Flink quickstart project imported, you can execu
 
 In order to execute program on a running Flink instance (and not from within your IDE) you need to install Flink on your machine. To do so, follow these steps:
 
-- Download the Apache Flink 1.0.3 release from the [download page](http://flink.apache.org/downloads.html)
+- Download the Apache Flink 1.1.1 release from the [download page](http://flink.apache.org/downloads.html)
 - Extract the downloaded `.tgz` archive
 - The resulting folder contains a Flink setup that can be locally executed without any further configuration.
 

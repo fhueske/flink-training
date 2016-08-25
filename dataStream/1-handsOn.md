@@ -1,7 +1,7 @@
 ---
-title: 5. DataStream API Basics - Hands-On
+title: DataStream API Basics - Hands-On
 layout: page
-permalink: /dataStreamBasics/handsOn.html
+permalink: /dataStream/1-handsOn.html
 ---
 
 In this hands-on session you will implement your first Flink program using the DataStream API. You will also learn how to package a Flink program using Apache Maven and execute the packaged program on a running Flink instance. 

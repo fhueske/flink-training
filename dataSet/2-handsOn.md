@@ -1,7 +1,7 @@
 ---
-title: 4. DataSet API Advanced - Hands-On
+title: DataSet API Advanced - Hands-On
 layout: page
-permalink: /dataSetAdvanced/handsOn.html
+permalink: /dataSet/2-handsOn.html
 ---
 
 In this hands-on session you can continue to work on  programming exercises or experiment with Flink's DataSet API features.

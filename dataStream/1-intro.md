@@ -1,7 +1,7 @@
 ---
-title: 5. DataStream API Basics
+title: DataStream API Basics
 layout: page
-permalink: /dataStreamBasics/intro.html
+permalink: /dataStream/1-intro.html
 ---
 
 This lesson gives an introduction into Flink's DataStream API and includes a programming exercise for a first streaming Flink program. In this lesson you will
@@ -13,4 +13,4 @@ This lesson gives an introduction into Flink's DataStream API and includes a pro
 - compile and package your program using Maven
 - execute your program on a (locally) running Flink instance
 
-[-> Continue to lecture]({{site.baseurl}}/dataStreamBasics/slides.html)
+[-> Continue to lecture]({{site.baseurl}}/dataStream/1-slides.html)
